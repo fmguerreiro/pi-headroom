@@ -1,0 +1,17 @@
+{
+  "name": "@fmguerreiro/pi-headroom",
+  "version": "0.1.0",
+  "description": "Route Pi model providers through a local Headroom proxy.",
+  "keywords": ["pi-package", "pi", "headroom", "context-compression"],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "pi-headroom": "./bin/pi-headroom"
+  },
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
