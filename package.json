@@ -4,6 +4,17 @@
   "description": "Route Pi model providers through a local Headroom proxy.",
   "keywords": ["pi-package", "pi", "headroom", "context-compression"],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmguerreiro/pi-headroom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fmguerreiro/pi-headroom/issues"
+  },
+  "homepage": "https://github.com/fmguerreiro/pi-headroom#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "bin": {
     "pi-headroom": "./bin/pi-headroom"
