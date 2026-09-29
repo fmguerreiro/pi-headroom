@@ -1,6 +1,6 @@
 # pi-headroom
 
-Routes Pi's OpenAI and Anthropic providers through a local [Headroom](https://github.com/headroomlabs-ai/headroom) proxy.
+Routes Pi's Anthropic, OpenAI, Google Gemini, and Google Vertex providers through a local [Headroom](https://github.com/headroomlabs-ai/headroom) proxy.
 
 ## Install
 
@@ -25,7 +25,7 @@ pip install "headroom-ai[proxy]"
 | `PI_HEADROOM_PORT` | `8787` | Local proxy port. |
 | `PI_HEADROOM_URL` | `http://127.0.0.1:8787` | Proxy URL when launching Pi directly. |
 
-For a provider without Headroom's default upstream mapping, configure its upstream through Headroom before use.
+Headroom uses its normal upstreams for Anthropic, OpenAI, Google Gemini, and Google Vertex. For another provider or a custom upstream, configure its upstream through Headroom before use.
 
 ## License
 

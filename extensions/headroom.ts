@@ -8,4 +8,6 @@ export default function headroom(pi: ExtensionAPI): void {
 	process.env.ANTHROPIC_BASE_URL = proxy;
 	pi.registerProvider("openai", { baseUrl: `${proxy}/v1` });
 	pi.registerProvider("anthropic", { baseUrl: proxy });
+	pi.registerProvider("google", { baseUrl: `${proxy}/v1beta` });
+	pi.registerProvider("google-vertex", { baseUrl: proxy });
 }
