@@ -1,3 +1,5 @@
+<p align="center"><img src="icon.webp" alt="pi-headroom icon" width="160"></p>
+
 # pi-headroom
 
 Routes Pi's OpenAI and Anthropic providers through a local [Headroom](https://github.com/headroomlabs-ai/headroom) proxy.
