@@ -1,8 +1,11 @@
-<p align="center"><img src="icon.webp" alt="pi-headroom icon" width="160"></p>
-
-# pi-headroom
-
-Routes Pi's OpenAI and Anthropic providers through a local [Headroom](https://github.com/headroomlabs-ai/headroom) proxy.
+<div align="center">
+  <a href="https://github.com/fmguerreiro/pi-headroom">
+    <img src="icon.webp" alt="pi-headroom" width="96" height="96" />
+  </a>
+  <h1>pi-headroom</h1>
+  <p><em>Route Pi's OpenAI and Anthropic providers through a local Headroom proxy.</em></p>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-4c1.svg" alt="MIT License" /></a>
+</div>
 
 ## Install
 
